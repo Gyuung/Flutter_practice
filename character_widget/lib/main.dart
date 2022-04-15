@@ -19,12 +19,12 @@ class Grade extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: Colors.white,
+        backgroundColor: Colors.amber[800],
         appBar: AppBar(
           title: Text('SableAntelope'),
-          backgroundColor: Colors.black,
+          backgroundColor: Colors.amber[700],
           centerTitle: true,
-          elevation: 0.0,
+          elevation: 0.0, // 입체감
         ),
         body: Padding(
           padding: EdgeInsets.fromLTRB(30.0, 40.0, 0.0, 0.0),
