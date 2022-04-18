@@ -22,7 +22,7 @@ class Grade extends StatelessWidget {
     return Scaffold(
         backgroundColor: Colors.white,
         appBar: AppBar(
-          title: Text('SableAntelope'),
+          title: Text('세이블앤틸롭'),
           backgroundColor: Colors.black,
           centerTitle: true,
           elevation: 0.0, // 입체감
